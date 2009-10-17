@@ -1,0 +1,55 @@
+!!! XML
+!!! Strict
+%html
+  %head
+    %meta{'http-equiv' => "Content-type",    :content => 'text/html; charset=utf-8' }
+    %title MockUP
+    = yield :html_head
+    = stylesheet_link_tag "/themes/finalist/stylesheets/screen"
+  %body#homepage
+    #container
+      #header
+        %h1= link_to image_tag("/themes/finalist/images/finalist_logo-trans.png")
+        %ul
+          %li= link_to "Over Finalist", mockup_path('about')
+          %li= link_to "Diensten"
+          %li= link_to "Portfolio"
+          %li= link_to "Partners"
+          %li= link_to "Carrière"
+          %li= link_to "Blog"
+      #content
+        #nav
+          %ul
+            %li= link_to "Home"
+
+        #why.block
+          %h2 Waarom Finalist
+
+          %ul
+            %li Sinds 1994 toonaangevend in IT
+            %li Kwalitatief hoogstaande oplossingen
+            %li Snel schakelen door flexibele organisatie
+            %li Crisis te lijf met open source en Scrum
+
+        #actual.block
+          %h2 Actueel
+
+          %p Nam semper felis non quam iaculis feugiat. Ut a laoreet purus. Maecenas justo mauris, luctus ut eleifend nec, consectetur non lorem. Pellentesque a sem ac lectus suscipit lacinia. Integer eleifend risus nec tellus euismod viverra. Nam augue sapien, ornare at molestie et, imperdiet eget ligula. Aenean quis metus ipsum. Aenean ac nunc ut arcu lobortis hendrerit sed sed sapien. Maecenas tristique facilisis sem non dapibus.
+
+        #blog.block
+          %h2 Blog
+
+          %p Proin in metus arcu. Pellentesque in elit magna, eu rhoncus nisi. Suspendisse ac libero sapien. Nunc semper blandit massa aliquet molestie. Curabitur ac ligula vel velit gravida vestibulum ut quis mauris. Vivamus ornare tellus eget dolor tincidunt et gravida ipsum gravida. Suspendisse sapien lorem, posuere nec vehicula ut, euismod eu ligula. Praesent eu ultrices nunc. Aliquam malesuada aliquam arcu, in bibendum purus tincidunt vitae. Quisque dapibus arcu sit amet metus condimentum eget dapibus mauris vestibulum. Sed vitae lectus in nulla feugiat vehicula eget vitae tellus. Phasellus consequat, diam ac euismod facilisis, mauris mauris lacinia nisl, id facilisis ante metus id sem. Nullam sollicitudin metus non nibh sagittis pulvinar. Vestibulum dignissim congue porta. Pellentesque pellentesque urna sit amet eros congue tincidunt vel et ipsum. Sed ipsum metus, tristique non luctus ac, elementum ac elit. Aliquam mi ipsum, rhoncus sit amet accumsan eget, dignissim vel nulla. Vivamus ac tortor quis lectus elementum eleifend. Donec quis nibh pellentesque augue tincidunt ultricies ut a mauris.
+
+          .block.tagline
+            = image_tag('/themes/finalist/images/tagline_nl.png')
+
+        #portfolio.block
+          %h2 Portfolio
+
+          %p Maecenas bibendum, arcu non dictum luctus, nibh purus pharetra nulla, in mattis mauris diam nec tortor. Fusce molestie dictum dolor. Integer placerat, massa eget vestibulum rutrum, sapien tortor ornare elit, at pulvinar elit libero et nunc. Nam eleifend imperdiet orci ac molestie. Sed id auctor arcu. Integer arcu ligula, mollis in lobortis sed, lacinia blandit neque. Donec nec diam purus. Duis tortor justo, facilisis eget pharetra in, posuere ac diam. Donec non sodales nisl. Pellentesque bibendum ipsum velit. Vivamus molestie congue imperdiet. Aenean eu dolor erat, vel cursus quam. Ut turpis metus, venenatis a ultrices eleifend, sollicitudin at lectus. Nam malesuada, elit eget vulputate mollis, nisi dolor semper ante, in lacinia nulla tellus non nunc. Suspendisse facilisis augue eu sapien vestibulum vitae tempus nulla pretium. Maecenas nec turpis risus. Nulla eu mi dui, at tincidunt leo.
+          %p &nbsp;
+          %p Quisque porta tincidunt varius. Aenean pellentesque rutrum lectus quis auctor. Sed et sem nec nisi scelerisque accumsan vehicula in justo. Sed eu nunc arcu, pulvinar viverra tellus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus pretium suscipit nisi vitae tempor. Curabitur vulputate libero varius lectus scelerisque vitae auctor enim malesuada. Nulla sollicitudin dapibus vulputate. Integer congue turpis eu ipsum aliquet condimentum. In in sapien sed massa rhoncus ullamcorper hendrerit quis nisl. Etiam libero leo, fringilla ut semper id, placerat id nulla. Cras rutrum nulla et velit lobortis ullamcorper. Cras a turpis nisi, viverra malesuada neque. Vestibulum ligula orci, gravida et mollis at, porttitor quis mauris. Integer mattis commodo pharetra. 
+
+          = yield
+        #footer

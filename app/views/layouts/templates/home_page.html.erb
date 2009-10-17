@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <title><%= page_title %></title>
+    <%= yield :html_head %>
+  <%= stylesheet_link_tag "/themes/finalist/stylesheets/screen" %>
+  </head>
+  <body id="homepage">
+    <%= cms_toolbar %>
+    <div id="container">
+      <%= render :partial => "partials/header"%>  
+      <div id="content">
+        <%= render :partial => "partials/crumbs" %>
+        <div id="why" class="block"><%= container :why %></div>
+        <div id="actual" class="block"><%= container :actual %></div>
+        <div id="blog" class="block"><%= container :blog %></div>
+        <div id="portfolio" class="block"><%= container :portfolio %></div>
+        
+      </div>
+    </div>
+  </body>
+</html>  

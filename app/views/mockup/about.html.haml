@@ -1,0 +1,65 @@
+!!! XML
+!!! Strict
+%html
+  %head
+    %meta{'http-equiv' => "Content-type",    :content => 'text/html; charset=utf-8' }
+    %title MockUP ABOUT
+    = yield :html_head
+    = stylesheet_link_tag "/themes/finalist/stylesheets/screen"
+  %body#page
+    #container
+      #header
+        %h1= link_to image_tag("/themes/finalist/images/finalist_logo-trans.png")
+        %ul
+          %li= link_to "Over Finalist", mockup_path('about')
+          %li= link_to "Diensten"
+          %li= link_to "Portfolio"
+          %li= link_to "Partners"
+          %li= link_to "Carrière"
+          %li= link_to "Blog"
+      #content
+        #above
+          #nav
+            %ul
+              %li= link_to "Home"
+              %li >
+              %li= link_to "Over Finalist"
+              %li >
+              %li= "Missie en kernwaarden"
+          #title.block
+            %h2 Missie en kernwaarden
+        #below
+          #main.block
+            %p Finalist IT Group verleent de IT diensten consultancy, projecten en applicatiebeheer. Wij zijn vooral gespecialiseerd in open source en open standaarden. Finalist werd in 1994 opgericht door onze huidige algemeen directeur Jean-Luc van Hulst. In Nederland werkt Finalist met 70 collega’s verdeeld over kantoren in Rotterdam, Amsterdam en Eindhoven. Finalist is tevens gevestigd in New York (V.S.) en Beijing (China).
+
+            %h3 Missie
+            %p Wij helpen onze klanten bij het behalen en behouden van concurrentievoordeel door het succesvol ontwikkelen en implementeren van de beste IT oplossingen.
+
+            %p &nbsp;
+            %p Finalist heeft haar kernwaarden hoog in het vaandel staan. Zij vormen het DNA van onze organisatie. Deze kernwaarden herkennen wij ook in onze klanten:
+
+            %h3 Slim
+            %p Wij hebben diepgaande technische kennis en knowhow, die we steeds vernieuwen door het creatief combineren van invalshoeken en pragmatische oplossingen. We maken tijd voor creativiteit. We werken en denken graag buiten gebaande paden, zonder concessies te doen aan een bruikbaar resultaat. Door scherp en innovatief te blijven, bieden wij onze klanten concurrentievoordelen.
+
+            %h3 In balans
+            %p We werken volgens eenduidige regels en afspraken. Maar we geven medewerkers ook alle tijd voor persoonlijke ontwikkeling en passies. Werk maken we altijd af omdat we doen wat we beloven. Werkdruk compenseren we met ontspanning en vrije tijd. In de uitdagende IT wereld bewaren we de rust voor onszelf en onze klant. Flexibel en doordacht spelen wij in op de markt.
+
+            %h3 Toegewijd
+            %p We hebben hart voor ons bedrijf, voor ons werk, voor onze klant en voor de techniek. We maken altijd af waar we aan begonnen zijn. We geven medewerkers alle steun en vrijheid om zich te blijven ontwikkelen.
+
+            %h3 Betrouwbaar
+            %p Vertrouwen van collega’s en klanten krijgen we omdat we open en eerlijk zijn in onze intenties. U kan op ons bouwen en wij respecteren de ander. Wij leven ons in in onze klanten en vertalen die kennis naar de toekomst. Onze medewerkers helpen elkaar. Kennis en ervaring worden daarbij gedeeld.
+          #sidebar.block
+            %h2 Gerelateerd
+            %ul
+              %li= link_to "Managementteam"
+              %li= link_to "Nieuws"
+              %li= link_to "Diensten"
+              %li= link_to "Portfolio"
+              %li= link_to "Expertise"
+              %li= link_to "Maatschappelijk verantwoordelijk ondernemen"
+              %li= link_to "Locaties"
+              %li= link_to "Contact"
+
+
+        #footer

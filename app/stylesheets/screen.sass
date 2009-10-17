@@ -1,0 +1,162 @@
+// This import applies a global reset to any page that imports this stylesheet.
+@import blueprint/reset.sass
+// To configure blueprint, edit the partials/base.sass file.
+@import partials/base.sass
+// Import all the default blueprint modules so that we can access their mixins.
+@import blueprint
+// Import the non-default scaffolding module.
+@import blueprint/modules/scaffolding.sass
+
+// To generate css equivalent to the blueprint css but with your configuration applied, uncomment:
+// +blueprint
+
+//Recommended Blueprint configuration with scoping and semantic layout:
++blueprint-typography("body.bp")
++blueprint-scaffolding("body.bp")
+body.bp
+  +blueprint-utilities
+  +blueprint-debug
+  +blueprint-interaction
+  // Remove the scaffolding when you're ready to start doing visual design.
+  // Or leave it in if you're happy with how blueprint looks out-of-the-box
+form.bp
+  +blueprint-form
+
+// Page layout can be done using mixins applied to your semantic classes and IDs:
+body.three-col
+  #container
+    +container
+  #header, #footer
+    +column(!blueprint_grid_columns)
+  #sidebar
+    // One third of the grid columns, rounding down. With 24 cols, this is 8.
+    !sidebar_columns = floor(!blueprint_grid_columns / 3)
+    +column(!sidebar_columns)
+  #content
+    // Two thirds of the grid columns, rounding up.
+    // With 24 cols, this is 16.
+    !content_columns = ceil(2 * !blueprint_grid_columns / 3)
+    // true means it's the last column in the row
+    +column(!content_columns, true)
+
+
+@import compass/utilities.sass
+
+!one = floor(!blueprint_grid_columns / 3)
+!two = ceil(2 * !blueprint_grid_columns / 3)
+
+body
+  :font-family verdana,arial,sans-serif
+  :font-size 11px
+  :background #e2e9eb
+  #container
+    +container
+    :border 1px solid #c7c7c7
+    :margin-top 15px
+    :width 990px
+  #content
+    +column(!blueprint_grid_columns)
+    :padding 20px
+    :background white
+    :border-top 1px solid #c7c7c7
+    :color #004e61
+    a
+      +hover-link
+      +link-colors(#004e61)
+  #header
+    +column(!blueprint_grid_columns + 1)
+  .block
+    :margin 15px 0
+    :border-top 2px solid #FF9900
+    :background url('../images/section_background.png') repeat-y right center
+    a
+      +link-colors(#f90)
+    ul
+      +pretty-bullets(/themes/finalist/images/li_background.gif, 5px, 8px  )
+      li
+        :margin 10px 0
+    h2
+      :color #f90
+      :font-size 24px
+      :font-weight normal
+      :margin-bottom 15px
+    h3
+      :font-weight bold
+      :margin 15px 0 5px 0
+  #nav
+    +column(!blueprint_grid_columns)
+    ul
+      +horizontal-list
+      a
+        +hover-link
+        +link-colors(#f90)
+  #header
+    :height 33px
+    :background url('../images/header_background.gif') repeat-x
+    h1
+      :float left
+      :margin 1px 10px
+    ul
+      :display inline
+      :list-style none
+      li
+        :float left
+        a
+          +link-colors(#004E61)
+          :text-decoration none
+          :display block
+          :font-size 10px
+          :height 14px
+          :padding 9px 13px
+          :background url('../images/header.nav_separator.gif') no-repeat top left
+          &:hover
+            :background-color #b8d1d9
+
+body#homepage
+  #why
+    +column(!one)
+  #actual
+    +column(!one)
+  #blog
+    +column(!one, true)
+    :float right
+    .block.tagline
+      :padding-top 20px
+      :text-align right
+  #portfolio
+    +column(!two, true)
+body#page
+  #nav
+    :margin 10px
+  #container
+    :background white
+  #content
+    :border-top 0 none
+    :margin 0
+    :padding 0
+  #above
+    +column(!blueprint_grid_columns + 1)
+    :border-bottom 1px solid #c7c7c7
+    :border-top 1px solid #c7c7c7
+  #below
+    +column(!blueprint_grid_columns + 1)
+    :background white url('../images/page_background.png') repeat-y right center
+  .block
+    :padding 10px
+    :background none
+    :border-top 0 none
+  #main
+    !one = floor(!blueprint_grid_columns / 4)
+    !two = ceil(3 * !blueprint_grid_columns / 4)
+    +column(!two)
+    :font-size 12px
+  #title
+    :background white
+    :margin-bottom 0
+    h2
+      :margin 0
+      :padding 0
+  #sidebar
+    +column(!one, true)
+    h2
+      :font-size 16px
