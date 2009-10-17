@@ -1,0 +1,42 @@
+/* line 2, ../../../../app/stylesheets/rating.sass */
+div.rating-cancel, div.star-rating {
+  float: left;
+  width: 17px;
+  height: 15px;
+  text-indent: -999em;
+  cursor: pointer;
+  display: block;
+  background: transparent;
+  overflow: hidden; }
+/* line 12, ../../../../app/stylesheets/rating.sass */
+div.rating-cancel {
+  background: url('../images/delete.gif') no-repeat 0 -16px; }
+  /* line 15, ../../../../app/stylesheets/rating.sass */
+  div.rating-cancel a {
+    background: url('../images/delete.gif') no-repeat 0 -16px; }
+/* line 18, ../../../../app/stylesheets/rating.sass */
+div.star-rating {
+  background: url('../images/star.gif') no-repeat 0 0px; }
+  /* line 21, ../../../../app/stylesheets/rating.sass */
+  div.star-rating a {
+    background: url('../images/star.gif') no-repeat 0 0px; }
+/* line 24, ../../../../app/stylesheets/rating.sass */
+div.rating-cancel a, div.star-rating a {
+  display: block;
+  width: 16px;
+  height: 100%;
+  background-position: 0 0px;
+  border: 0; }
+/* line 31, ../../../../app/stylesheets/rating.sass */
+div.star-rating-on a {
+  background-position: 0 -16px!important; }
+/* line 34, ../../../../app/stylesheets/rating.sass */
+div.star-rating-hover a {
+  background-position: 0 -32px; }
+/* line 37, ../../../../app/stylesheets/rating.sass */
+div.star-rating-readonly a {
+  cursor: default !important; }
+/* line 40, ../../../../app/stylesheets/rating.sass */
+div.star-rating {
+  background: transparent!important;
+  overflow: hidden!important; }

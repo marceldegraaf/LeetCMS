@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20091001201825) do
+ActiveRecord::Schema.define(:version => 20091017181445) do
 
   create_table "attachment_versions", :force => true do |t|
     t.integer  "attachment_id"
@@ -70,6 +70,45 @@ ActiveRecord::Schema.define(:version => 20091001201825) do
     t.integer  "connectable_version"
     t.string   "container"
     t.integer  "position"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "contact_versions", :force => true do |t|
+    t.integer  "contact_id"
+    t.integer  "version"
+    t.string   "name"
+    t.string   "organisation"
+    t.string   "phone"
+    t.string   "email"
+    t.string   "subject"
+    t.text     "question"
+    t.string   "relation"
+    t.boolean  "published",       :default => false
+    t.boolean  "deleted",         :default => false
+    t.boolean  "archived",        :default => false
+    t.string   "version_comment"
+    t.integer  "created_by_id"
+    t.integer  "updated_by_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "contacts", :force => true do |t|
+    t.integer  "version"
+    t.integer  "lock_version",  :default => 0
+    t.string   "name"
+    t.string   "organisation"
+    t.string   "phone"
+    t.string   "email"
+    t.string   "subject"
+    t.text     "question"
+    t.string   "relation"
+    t.boolean  "published",     :default => false
+    t.boolean  "deleted",       :default => false
+    t.boolean  "archived",      :default => false
+    t.integer  "created_by_id"
+    t.integer  "updated_by_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -258,6 +297,39 @@ ActiveRecord::Schema.define(:version => 20091001201825) do
     t.boolean  "archived",      :default => false
     t.integer  "created_by_id"
     t.integer  "updated_by_id"
+  end
+
+  create_table "page_ranking_versions", :force => true do |t|
+    t.integer  "page_ranking_id"
+    t.integer  "version"
+    t.integer  "page_id"
+    t.string   "name"
+    t.integer  "rank"
+    t.string   "ip"
+    t.boolean  "published",       :default => false
+    t.boolean  "deleted",         :default => false
+    t.boolean  "archived",        :default => false
+    t.string   "version_comment"
+    t.integer  "created_by_id"
+    t.integer  "updated_by_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "page_rankings", :force => true do |t|
+    t.integer  "version"
+    t.integer  "lock_version",  :default => 0
+    t.integer  "page_id"
+    t.string   "name"
+    t.integer  "rank"
+    t.string   "ip"
+    t.boolean  "published",     :default => false
+    t.boolean  "deleted",       :default => false
+    t.boolean  "archived",      :default => false
+    t.integer  "created_by_id"
+    t.integer  "updated_by_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "page_route_options", :force => true do |t|
