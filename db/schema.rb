@@ -74,45 +74,6 @@ ActiveRecord::Schema.define(:version => 20091017181445) do
     t.datetime "updated_at"
   end
 
-  create_table "contact_versions", :force => true do |t|
-    t.integer  "contact_id"
-    t.integer  "version"
-    t.string   "name"
-    t.string   "organisation"
-    t.string   "phone"
-    t.string   "email"
-    t.string   "subject"
-    t.text     "question"
-    t.string   "relation"
-    t.boolean  "published",       :default => false
-    t.boolean  "deleted",         :default => false
-    t.boolean  "archived",        :default => false
-    t.string   "version_comment"
-    t.integer  "created_by_id"
-    t.integer  "updated_by_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "contacts", :force => true do |t|
-    t.integer  "version"
-    t.integer  "lock_version",  :default => 0
-    t.string   "name"
-    t.string   "organisation"
-    t.string   "phone"
-    t.string   "email"
-    t.string   "subject"
-    t.text     "question"
-    t.string   "relation"
-    t.boolean  "published",     :default => false
-    t.boolean  "deleted",       :default => false
-    t.boolean  "archived",      :default => false
-    t.integer  "created_by_id"
-    t.integer  "updated_by_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
   create_table "content_type_groups", :force => true do |t|
     t.string   "name"
     t.datetime "created_at"
@@ -297,6 +258,47 @@ ActiveRecord::Schema.define(:version => 20091017181445) do
     t.boolean  "archived",      :default => false
     t.integer  "created_by_id"
     t.integer  "updated_by_id"
+  end
+
+  create_table "news_article_versions", :force => true do |t|
+    t.integer  "news_article_id"
+    t.integer  "version"
+    t.string   "name"
+    t.string   "slug"
+    t.datetime "release_date"
+    t.integer  "category_id"
+    t.integer  "attachment_id"
+    t.integer  "attachment_version"
+    t.text     "summary"
+    t.text     "body"
+    t.boolean  "published",          :default => false
+    t.boolean  "deleted",            :default => false
+    t.boolean  "archived",           :default => false
+    t.string   "version_comment"
+    t.integer  "created_by_id"
+    t.integer  "updated_by_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "news_articles", :force => true do |t|
+    t.integer  "version"
+    t.integer  "lock_version",       :default => 0
+    t.string   "name"
+    t.string   "slug"
+    t.datetime "release_date"
+    t.integer  "category_id"
+    t.integer  "attachment_id"
+    t.integer  "attachment_version"
+    t.text     "summary"
+    t.text     "body"
+    t.boolean  "published",          :default => false
+    t.boolean  "deleted",            :default => false
+    t.boolean  "archived",           :default => false
+    t.integer  "created_by_id"
+    t.integer  "updated_by_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "page_ranking_versions", :force => true do |t|

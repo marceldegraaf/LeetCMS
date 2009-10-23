@@ -1,0 +1,1681 @@
+# All translations of this locale combined.
+# Last updated: Wed Aug 12 12:56:13 +0200 2009
+
+nl:
+  edit_person: Wijzig persoon
+  remove_photo: Foto verwijderen
+  confirm_deceased_on: "Door het invoeren van een overlijdensdatum worden alle deelnames, aanstellingen en activiteiten van deze persoon beëindigd. Weet u zeker dat u door wilt gaan?"
+  required: Verplicht
+  no_root_table_contents_found: Geen stamtabelgegegevens gevonden.
+  no_activities_found: Geen activiteiten gevonden
+  no_participations_found: Geen deelnamen gevonden
+  no_memberships_found: Geen lidmaatschappen gevonden
+  no_terminations_found: Geen deelnamen gevonden, die afgenomen moeten worden
+  only_deceased: Overleden personen
+  save: Opslaan
+  all_person_types: -Alles zoeken-
+  empty: ""
+  male: Man
+  iban_description: Wat is het IBAN van mijn rekeningnummer?
+  birthdays_overview: "Overzicht verjaardagen {{year}}"
+  birthday_month: "Maand: {{month_name}}"
+  address: Adres
+  access_control:
+    search: "{{name}} (zoeken)"
+    types:
+      allow: mag
+      deny: mag niet
+    actions:
+      new: toevoegen pagina
+      create: toevoegen actie
+      edit: wijzigen pagina
+      update: wijzigen actie
+      delete: verwijderen pagina
+      destroy: verwijderen actie
+      index: overzicht
+      show: tonen
+    search_actions:
+      new: zoeken pagina
+      create: zoeken actie
+    description: "{{role}} {{type}} bij {{action}}"
+  roles:
+    legion_officer: Korpsofficier
+    legion_administrator: SAIl2 Beheerder
+    division_officer: Divisieofficier
+    admin: Beheerder
+    headquarter: Hoofdkwartier
+    viewer: Raadpleger
+    cluster_officer: Clusterofficier
+  root_tables:
+    index:
+      select_root_table: Selecteer een stamtabel in de rechterkolom.
+      used_as: " (as '{{to}}')"
+      header: Select a root table to manage
+      used_by: Used by {{tables}}
+  date_explanation: dd-mm-jjjj
+  reset_form: Annuleren
+  selection_qualifications:
+    __common:
+  no_selection_qualifications_found: Geen selectiekenmerken gevonden
+  membership_searches:
+    __common:
+      submit: Zoeken
+  selection_qualification_searches:
+    __common:
+      submit: Zoeken
+  people:
+    __common:
+      contact_in_case_of_emergency: Bij calamiteiten contacteer
+      actions: Acties
+      include_deceased: Toon overleden personen
+      no_salvationists_found: Geen heilssoldaten gevonden
+      approach: Aanschrijven
+      previous: "&lsaquo; Vorige"
+      no_converts_found: Geen bekeerlingen gevonden
+      preferred_communication_method_second_email: Berichten per E-mail zakelijk
+      post: Berichten per post
+      none: Geen berichten
+      salvation_army: Leger des Heils
+      diet_example: (bijv. vegetarisch)
+      wants_mail_or_email: Soort post
+      female: vrouw
+      financial_details: "Financi\xC3\xABle gegevens"
+      personal_details_continued: Personalia - Vervolg
+      homephone: !binary |
+        UHJpdsOp
+
+      chaplaincy: Pastoraat
+      preferences: "Voorkeur:"
+      preferred_communication_method_none: Geen berichten
+      wants_central_email: e-mail
+      no_valid_date: Ongeldige datum
+      person_relations: Relaties
+      communication: Communicatie
+      editing: "U bent aan het wijzigen:"
+      contact: Contact
+      wants_local_email: e-mail
+      personal_details: Personalia
+      no_inactive_addresses: Geen inactieve adressen
+      addresses_and_households: Adres & huishouden
+      from_legion: "vanuit lokaal korps:"
+      person_details: Onderdelen
+      male: man
+      process_death: Verwerk overlijdensbericht
+      no_people_found: Geen persoon gevonden
+      cellphone: Mobiel
+      fax: Fax
+      phone: Telefoon
+      preferred_communication_method_email: "Berichten per E-mail priv\xC3\xA9"
+      wants_central_mail: post
+      approach_separately: Apart benaderen (op huidig adres, ook in de toekomst)
+      no_possible_relations: Er zijn momenteel geen waarschijnlijke relaties gevonden.
+      next: Volgende &rsaquo;
+      context: Maatschappelijke context
+      tools_example: (bijv. rollator)
+      officephone: Zakelijk
+      contact_description: (bijv.&nbsp;naam/telefoon)
+      secret: houd geheim
+      wants_local_mail: post
+      no_active_addresses: Geen actieve adressen
+      occupant: Bewoner
+      tools_and_diet_description: "Als {{name}} deelneemt in activiteiten, gelieve rekening te houden met:"
+      preferred_communication_method_post: Berichten per post
+      from_hq: "vanuit HK:"
+      no_living_found: Geen levende personen gevonden
+      no_deceased_found: Geen overleden personen gevonden
+      no_officers_found: Geen korpsofficieren gevonden
+      email: Berichten per e-mail
+      more: meer
+      edit_person: Verwerk profielgegevens
+    edit:
+      occupants: Bewoners
+      edit: Bewerken
+      add_address: Extra adres of verhuizing opgeven
+      new_address: Verwerk adreswijziging
+      person_inactive_addresses: Inactieve adressen
+      person_addresses: Adressen
+      add_post_address: Postadres toevoegen
+      person_active_addresses: Actieve adressen
+    show:
+      edit_personal_details: Bewerk persoonsgegevens
+    index:
+      edit: Wijzig
+    create:
+      new: Nieuw
+      invalid_zipcode_housenumber_combination: Ongeldige postcode/huisnummer combinatie
+      identical_people:
+        one: Er is een persoon gevonden die u mogelijk bedoelt.
+        other: Er zijn {{count}} personen gevonden die u mogelijk bedoelt.
+  show: Toon
+  choose_month: "Kies maand:"
+  actions: Acties
+  new_address: Verwerk adreswijziging
+  supply_histories:
+    __common:
+      submit: Opslaan
+  contact_searches:
+    __common:
+      submit: Zoeken
+  supply_searches:
+    __common:
+      submit: Zoeken
+  human_searches:
+    __common:
+      submit: Zoeken
+  description: Omschrijving
+  number: Nummer
+  visits: 
+    __common: 
+      no_visits_found: Geen bezoek gevonden
+  ok: OK
+  preferences: Voorkeuren
+  title:
+    transfers:
+      new: Overplaatsing
+      create: Overplaatsing
+    deceases:
+      new: Overleden
+      create: Overleden
+    selection_qualifications:
+      sidebar: Selectiekenmerken
+      index: Selectiekenmerken
+      blank: Selectiekenmerken
+    selection_qualification_searches:
+      new: Zoeken
+      create: Zoeken
+    activities:
+      sidebar: Activiteiten
+    human_searches:
+      new: Zoeken
+      create: Zoeken
+    person_searches: 
+      new: Zoeken
+      create: Zoeken
+    activity_searches:
+      new: Zoeken
+      create: Zoeken
+    membership_searches:
+      new: Zoeken
+      create: Zoeken
+    memberships: 
+      sidebar: Lidmaatschappen
+      destroy: Uit korps
+      terminations: Afnamen
+    terminations:
+      index: "Afname"
+      create: "Afname"
+      terminations: Afname
+    participations:
+      terminations: Afname
+      sidebar: Deelnamen
+    relations: 
+      new: Toevoegen gezinsrelatie
+      delete: Verwijder Relatie
+      create: Toevoegen gezinsrelatie
+    profiles: 
+      edit: Voorkeuren
+      update: Voorkeuren
+    contact_searches: 
+      new: Zoeken
+      create: Zoeken
+    user_searches: 
+      new: Zoeken
+      create: Zoeken
+    frequent_visitors: 
+      index: Bezoekers overzicht
+      sidebar: Regelmatige bezoekers Korps {{name}}
+    addresses: 
+      new: Nieuw adres
+      edit: Muteer adres
+      index: Zoek adres
+      show: Toon adres
+      create: Nieuw adres
+      update: Muteer adres
+      new_post_address: Nieuw postadres
+    supply_histories: 
+      show: Historie
+      create: Historie
+      update: Historie
+    root_table_content_searches: 
+      new: Zoeken - {{table}}
+      create: Zoeken - {{table}}
+    statistics: 
+      sidebar: Statistiek Korps {{name}}
+    deregistrations:
+      new: Uitschrijven
+      create: Uitschrijven
+    default: 
+      new: Toevoegen
+      edit: Wijzigen
+      delete: Verwijderen
+      destroy: Verwijderen
+      index: Overzicht
+      show: Bekijken
+      create: Toevoegen
+      update: Wijzigen
+      search: Zoeken
+    visit_searches: 
+      new: Zoeken
+      create: Zoeken
+    external_relations: 
+      sidebar: Externe Relaties {{name}}
+    root_tables: 
+      index: Overzicht
+      sidebar: Stamtabellen
+    frequent_visitor_searches: 
+      new: Zoeken
+      create: Zoeken
+    person_photos: 
+      edit: Foto wijzigen
+      update: Foto wijzigen
+    supplies: 
+      sidebar: Materieel Korps {{name}}
+    legions: 
+      new: Nieuw korps
+      show: Korps
+      create: Nieuw korps
+      update: Korps wijzigen
+    statistic_searches: 
+      new: Zoeken
+      create: Zoeken
+    organisations: 
+      sidebar: Organisaties Korps {{name}}
+    external_relation_searches: 
+      new: Zoeken
+      create: Zoeken
+    pages: 
+      "404": 404
+      colofon: Colofon
+      index: Welkom bij SAIL2
+      maintenance: Werk in uitvoering
+      "500": 500
+    root: Thuispagina
+    organisation_searches: 
+      new: Zoeken
+      create: Zoeken
+    root_table_contents: 
+      new: Toevoegen - {{table}}
+      show: Bekijken - {{table}}
+      edit: Wijzigen - {{table}}
+      add: Toevoegen
+      delete: Verwijderen - {{table}}
+      destroy: Verwijderen - {{table}}
+      index: Overzicht - {{table}}
+      sidebar: "{{table}}"
+      create: Toevoegen - {{table}}
+      update: Wijzigen - {{table}}
+    user_sessions: 
+      new: Inloggen
+      create: Inloggen
+    people: 
+      officers: Overzicht korpsofficieren
+      deceased: Overzicht van overleden personen
+      new: Nieuw persoon invoeren
+      edit: Wijzig persoon
+      step: Toevoegen - Stap {{count}}
+      converts: Overzicht bekeerlingen
+      edit_details: 
+        photo: Wijzig persoon, pasfoto
+        memberships: Wijzig persoon, lidmaatschappen
+        deceased: Verwerk overlijdensbericht
+        relations: Wijzig persoon, relaties
+        addresses: Wijzig persoon, adressen
+        personal: Wijzig persoon, personalia
+        communication: Wijzig persoon, communicatie
+      living: Overzicht personen
+      show: Gegevens persoon
+      index: Overzicht personen
+      sidebar: Personen Korps {{name}}
+      salvationists: Overzicht heilssoldaten
+      create: Nieuw persoon invoeren
+      update: Wijzig persoon
+      edit_person: Wijzig persoon
+    contacts: 
+      sidebar: Contactpersonen
+    visits: 
+      overview: Bezoeken overzicht
+      sidebar: Bezoeken Korps {{name}}
+    users: 
+      sidebar: Toegang
+    participation_searches:
+      new: Zoeken
+      create: Zoeken
+    activity_types: 
+      new: Nieuwe statistiekomschrijving
+      edit: Statistiekomschrijving wijzigen
+      index: Statistiekomschrijvingen
+      show: Statistiekomschrijving '{{name}}'
+      create: Nieuwe statistiekomschrijving
+      update: Statistiekomschrijving wijzigen
+    divisions: 
+      new: Nieuwe regio
+      show: Divisie
+      create: Nieuwe regio
+    supply_searches: 
+      new: Zoeken
+      create: Zoeken
+    reports:
+      new: Rapportage
+    birthday_reports:
+      new: Rapportage - Verjaardagslijst
+    addresses_reports:
+      new: Rapportage - Adressen
+    statistics_reports:
+      new: Rapportage - Statistieken
+  addresses: 
+    new: 
+      edit: Bewerken
+      is_post_address: Postadres
+      new_address_title: Nieuw adres
+      is_visiting_address: Bezoekadres
+      address_type: Adrestype
+    edit: 
+      is_post_address: Postadres
+      is_visiting_address: Bezoekadres
+      address_type: Adrestype
+    show: 
+      edit: Bewerken
+    index: 
+      occupants: Bewoners
+      edit: Bewerken
+      address_not_found: Adres niet gevonden
+    update: 
+      flash_addresses_update_fail: Adres kon niet worden opgeslagen
+  profiles: 
+    __common: 
+      password: Nieuw wachtwoord
+  back: Terug
+  sign_in: Inloggen
+  other: Diversen
+  bic_description: Wat is het BIC van mijn rekeningnummer?
+  external_relations: 
+    __common: 
+      no_external_relations_found: Geen externe relatie gevonden
+  pagination: 
+    previous_label: "&laquo; Vorige"
+    "false": Nee
+    next_label: Volgende &raquo;
+  support: 
+    array: 
+      last_word_connector: " en "
+      words_connector: ", "
+      two_words_connector: " en "
+  organisations: 
+    still_has_contacts: Er zijn nog contactpersonen voor deze organisatie.
+    __common: 
+      select_organisation_type: -Selecteer een organisatievorm-
+      contacts_for_organisation: Contactpersonen in organisatie
+      no_organisations_found: Geen organisaties gevonden
+  legions: 
+    new: 
+      division: Divisie
+  supplies: 
+    __common: 
+      destroy_not_allowed: Materieel kan niet verwijderd worden, omdat het al is uitgeleend.
+      select_supply_type: -Selecteer een materieelsoort-
+    show: 
+      cancel: Terug
+      reset_form: Historie
+    index: 
+      no_supplies_found: Geen materieel gevonden
+  female: Vrouw
+  sign_out: Uitloggen
+  cancel: Annuleren
+  datetime: 
+    prompts: 
+      minute: minuut
+      month: maand
+      second: seconde
+      hour: uur
+      day: dag
+      year: jaar
+    distance_in_words: 
+      less_than_x_minutes: 
+        one: minder dan een minuut
+        other: minder dan {{count}} minuten
+      x_days: 
+        one: een dag
+        other: "{{count}} dagen"
+      x_seconds: 
+        one: een seconde
+        other: "{{count}} seconden"
+      x_months: 
+        one: 1 maand
+        other: "{{count}} maanden"
+      about_x_hours: 
+        one: ongeveer een uur
+        other: ongeveer {{count}} uur
+      x_minutes: 
+        one: een minuut
+        other: "{{count}} minuten"
+      less_than_x_seconds: 
+        one: minder dan een seconde
+        other: minder dan {{count}} seconden
+      about_x_years: 
+        one: ongeveer een jaar
+        other: ongeveer {{count}} jaar
+      about_x_months: 
+        one: ongeveer een maand
+        other: ongeveer {{count}} maanden
+      over_x_years: 
+        one: meer dan een jaar
+        other: meer dan {{count}} jaar
+      half_a_minute: een halve minuut
+  organisation_searches: 
+    __common: 
+      submit: Zoeken
+  statistic_searches: 
+    __common: 
+      submit: Zoeken
+  participations:
+    __common:
+      no_participations_found: Geen deelname gevonden
+  participation_searches:
+    __common:
+      submit: Zoeken
+  date: 
+    month_names: 
+    - 
+    - januari
+    - februari
+    - maart
+    - april
+    - mei
+    - juni
+    - juli
+    - augustus
+    - september
+    - oktober
+    - november
+    - december
+    order: 
+    - :day
+    - :month
+    - :year
+    abbr_day_names: 
+    - zo
+    - ma
+    - di
+    - wo
+    - do
+    - vr
+    - za
+    formats: 
+      default: "%d-%m-%Y"
+      short: "%d %b"
+      long: "%d %B %Y"
+    day_names: 
+    - zondag
+    - maandag
+    - dinsdag
+    - woensdag
+    - donderdag
+    - vrijdag
+    - zaterdag
+    validation_format: ^[0-3]?[0-9]-[01]?[0-9]-[1-9][0-9]{3}$
+    abbr_month_names: 
+    - 
+    - jan
+    - feb
+    - mrt
+    - apr
+    - mei
+    - jun
+    - jul
+    - aug
+    - sep
+    - okt
+    - nov
+    - dec
+  locales: 
+    cz: !binary |
+      xIxlc2t5
+
+    nl: Nederlands
+    en: English
+  show_person: Toon persoon &rsaquo;
+  delete: Verwijderen
+  search_all: -Alles zoeken-
+  select_activity: Selecteer een korpsactiviteit
+  create_new_visiting_person: bezoekend persoon toevoegen
+  zero_inhabitants: Momenteel geen bewoners bekend op dit adres
+  frequent_visitor_searches: 
+    __common: 
+      submit: Zoeken
+  show_all_letters: Alles tonen
+  show_all: Toon alles
+  signed_in_as: Ingelogd als {{user}}
+  number: 
+    format: 
+      separator: ","
+      precision: 3
+      delimiter: .
+    human: 
+      format: 
+        precision: 1
+        delimiter: ""
+      storage_units: 
+        format: "{{size}} {{unit}}"
+        units: 
+          kb: KB
+    percentage: 
+      format: 
+        delimiter: ""
+    precision: 
+      format: 
+        delimiter: ""
+    currency: 
+      format: 
+        format: "%u %n"
+        unit: "&euro;"
+        separator: ","
+        precision: 2
+        delimiter: ""
+  only_chaplains: Alleen pastoraal medewerkers
+  invisible_errors: 
+    one: De volgende fout stond niet op deze pagina
+    other: De volgende {{count}} fouten stonden niet op deze pagina
+  different_post_address: Afwijkend postadres
+  visit_searches: 
+    __common: 
+      submit: Zoeken
+  activity_searches:
+    __common:
+      submit: Zoeken
+  person_searches: 
+    __common: 
+      submit: Zoeken
+  legion: 
+    new: 
+      division: Divisie
+  choose: -Maak keuze-
+  user_searches: 
+    __common: 
+      submit: Zoeken
+  all_supply_types: -Alles zoeken-
+  all_external_relation_types: -Alles zoeken-
+  invisible_errors_description: 
+    one: U moet deze fout eerst verhelpen, voordat u dit formulier kunt opslaan.
+    other: U moet deze fouten eerst verhelpen, voordat u dit formulier kunt opslaan.
+  all_visit_types: -Alles zoeken-
+  per_page: 
+    one: alle regels
+    other: "{{count}} regels per pagina"
+  root_table_contents: 
+    index:
+      no_root_table_contents_found: "Er zijn geen stamtabelgegevens voor {{table}} gevonden."
+  confirm_reset: Weet u zeker dat u deze invoer wilt annuleren? Onopgeslagen invoer gaat dan verloren.
+  submit: Opslaan
+  statistics: 
+    index: 
+      no_statistics_found: Geen statistiekregels gevonden
+  selection_qualifications: 
+    index: 
+      new: Nieuw
+  only_salvationists: Alleen heilssoldaten
+  time: 
+    am: am
+    formats: 
+      default: "%a, %d %b %Y %H:%M:%S"
+      time: "%H:%M"
+      short: "%d %b %H:%M"
+      long: "%A, %d %B %Y, %H:%M"
+    pm: pm
+  delete_relation: "Weet u zeker dat u deze relatie wilt be\xC3\xABindigen?"
+  choose_year: "Kies jaar:"
+  all_organisation_types: -Alles zoeken-
+  all_activities: -Alles zoeken-
+  flash:
+    deregistrations:
+      create: Persoon is uitgeschreven
+    deceases:
+      create: Persoon is overleden
+    transfers:
+      create: Persoon is overgeplaatst
+    people_selection_qualifications:
+      create: "Selectiekenmerken voor {{name}} bijgewerkt"
+    selection_qualifications:
+      edit: Selectiekenmerk bijgewerkt
+    terminations:
+      approved: "Deelname is afgenomen"
+      rejected: "Deelname is afgewezen"
+    memberships: 
+      destroy: Persoon zit niet meer in korps
+    common: 
+      delete: "{{table}} kan niet verwijderd worden."
+      destroy: "{{table}} is verwijderd."
+      create: "{{table}} is opgeslagen."
+      update: "{{table}} is bijgewerkt."
+      fail: Er heeft incorrecte invoer plaatsgevonden.
+    profiles: 
+      update: Voorkeuren bijgewerkt
+      fail: Voorkeuren konden niet worden opgeslagen
+    relations: 
+      destroy: "Relatie be\xC3\xABindigd"
+      create: "{{first}} is nu {{type}} van {{second}}"
+      fail: Relatie kon niet aangemaakt worden
+    addresses: 
+      create_post_address: Postadres opgeslagen
+      create: Adres opgeslagen
+      update: Adres opgeslagen
+      fail: Adres kon niet worden opgeslagen
+    supply_histories: 
+      create: Materieel is uitgeleend
+      update: Materieel is ingenomen
+      fail: Er heeft incorrecte invoer plaatsgevonden.
+    frequent_visitors: 
+      destroy_not_allowed: Regelmatige bezoeker kon niet verwijderd worden
+    external_relations: 
+      destroy_not_allowed: Externe Relatie kon niet verwijderd worden
+      destroy: Externe Relatie is verwijderd
+      create: Externe Relatie is opgeslagen
+      update: Externe Relatie is bijgewerkt
+      fail: Er heeft incorrecte invoer plaatsgevonden
+    person_photos: 
+      update: Foto is opgeslagen
+      fail: Bestand kon niet opgeslagen worden
+    supply_photos:
+      update: Foto is opgeslagen
+      destroy: Foto is verwijderd
+      fail: Bestand kon niet opgeslagen worden
+    legions: 
+      create: Korps is aangemaakt
+      update: Korps is aangepast
+    activities: 
+      destroy: Korpsactiviteit is gedeactiveerd
+    users:
+      cannot_delete_yourself: Het is niet mogelijk uw eigen gebruikersaccount te verwijderen
+    user_sessions: 
+      failed: Onbekende inlognaam of wachtwoord
+      destroy: U bent uitgelogd
+      create: U bent ingelogd
+    root_table_contents: 
+      delete: "{{table}} kan niet verwijderd worden, omdat deze nog in gebruik is"
+    divisions: 
+      create: Divisie is aangemaakt
+  all_user_types: -Alles zoeken-
+  only_frequent_visitors: Alleen regelmatige bezoekers
+  all_frequent_visitor_types: -Alles zoeken-
+  buttons: 
+    delete: 
+      submit: Verwijderen
+    show: 
+      submit: Terug
+  require_no_user: Deze pagina is niet bereikbaar als u ingelogd bent
+  activity_types: 
+    __common: 
+      new: Nieuwe activititeitsdefinitie toevoegen
+      edit: Bewerk activiteitsdefinitie
+      who_can_participate: Wie mogen deelnemen?
+      which_kind_of_participations: Welke deelnamen biedt de groep?
+  require_user: Om deze pagina te bekijken moet u ingelogd zijn
+  relations: 
+    __common: 
+      edit: Terug naar persoonsgegevens
+  history: Historie
+  activities: 
+    __common: 
+      local_name: Hier in {{legion}} heet het
+      who_can_participate_description: "Het hoofdkwartier stelt deelnamebeperkingen voor deze activiteit:"
+      activity_type_name: Het hoofdkwartier noemt het
+      cannot_find_activity_description: De meeste activiteiten moeten uniek zijn in elk korps. U kunt dat soort activiteiten niet dubbel starten.
+      available_activities: Beschikbare korpsactiviteiten
+      activity_already_exists_description: Van sommige (algemene) activiteiten kunt u onbeperkt dubbele groepen starten, elk met een unieke naam.
+      cannot_find_activity: Mijn activiteit staat er niet tussen
+      who_is_responsible_person_description: De groepsleider heeft inzage in personalia van deelnemers, telt de bezoekstatistiek en is het aanspreekpunt.
+      frequently_occuring_situations: Veel voorkomende situaties
+      who_can_participate: Wie mogen deelnemen?
+      description: Kies een activiteit die het hoofdkwartier aanbiedt, zodat uw bezoekerstal meetelt voor korpsactiviteit in de rest van Nederland.
+      who_is_responsible_person: Wie is de groepsleider?
+      activity_already_exists: Deze activiteit bestaat al in mijn korps
+    index: 
+      no_activities_found: Geen activiteiten gevonden
+  inhabitants: 
+    one: Momenteel {{count}} bewoner op dit adres
+    other: Momenteel {{count}} bewoners op dit adres
+  until: t/m
+  sorting_column: Sorteer {{direction}}
+  add_post_address: Postadres toevoegen
+  only_officers: Alleen korpsofficieren
+  users: 
+    __common: 
+      new: Nieuwe gebruiker
+      edit: Wijzig gebruiker
+      no_users_found: Geen gebruiker gevonden
+  borrowed: <uitgeleend>
+  only_converts: Alleen bekeerlingen
+  external_relation_searches: 
+    __common: 
+      submit: Zoeken
+  frequent_visitors: 
+    __common: 
+      no_frequent_visitors_found: Geen regelmatige bezoeker gevonden
+  all_frequent_visitors: Alle bezoekers
+  visiting_legion_officers: Korpsofficieren
+  visiting_chaplains: Pastoraal medewerkers
+  visiting_regular_visitors: Regelmatige bezoekers
+  sign_up: Aanmelden
+  memberships: Lidmaatschap
+  asc: oplopend
+  legion_name: Korps {{legion}}
+  search: Zoeken
+  root_table_content_searches: 
+    __common: 
+      submit: Zoeken
+  all_members: Alle leden
+  current_user: Ingelogd
+  desc: aflopend
+  all_contact_types: -Alles zoeken-
+  contacts: 
+    __common: 
+      no_contacts_found: Geen contactpersonen gevonden
+  images: 
+    checkbox_uncheck_png: Niet geselecteerd
+    radio_button_png: Geselecteerd
+    photos_medium_missing_png: Geen profielfoto beschikbaar
+    radio_button_uncheck_png: Niet geselecteerd
+  activerecord: 
+    models:
+      human: Persoon
+      termination_reason: Reden afname
+      deregistration_reason: Reden uitschrijving
+      working_unit: Werkeenheid
+      participation_method: Subsoortdeelname
+      participation_branch: Hoofdsoortdeelname
+      participation_type: Deelnameomschrijving
+      participation_category: Deelnamecategorie
+      activity_branch: Hoofdsoort activiteit
+      main_activity_type: Subsoortstatistiek
+      activity_type: Statistiekomschrijving
+      duration: Duur
+      organisation_type: Organisatievorm
+      visit_location: Bezoeklocatie
+      address: Adres
+      visit_duration: Bezoekduur
+      health_insurance_company: Zorgverzekeraar
+      person: Persoon
+      zip: Postcodetabel
+      visit: Bezoek
+      membership: Lidmaatschap
+      honorific: Titel
+      participation: Deelname
+      payment_method: Betaalwijze
+      meeting_frequency: Samenkomstfrequentie
+      outpost: Buitenpost
+      service_center: Dienstencentrum
+      visit_reason: Bezoekreden
+      legion: Korps
+      division: Divisie
+      relation: Relatie
+      activity: Activiteit
+      contact: Contactpersoon
+      rank: Rang
+      supply: Materieel
+      supply_history: Materieelgeschiedenis
+      visit_type: Bezoektype
+      membership_type: Lidmaatschapsomschrijving
+      cluster: Cluster
+      external_relation: Externe Relatie
+      marital_state: Burgelijke staat
+      frequent_visitor: Regelmatige bezoeker
+      statistic: Statistiekregel
+      user: Gebruiker
+      search: Zoekopdracht
+      supply_type: Materiaalsoort
+      education: Opleiding
+      activity_type: Statistiekomschrijving
+      selection_qualification: Selectiekenmerk
+      organisation: Organisatie
+      roles_user: Rechten
+      role: Rol
+    attributes:
+      service_center:
+        name: Omschrijving
+      frequent_visitor:
+        role: Rol
+        full_name: Naam
+        number_of_visits: Aantal bezoeken
+        comment: Opmerkingen
+        person_id: Persoon
+      human_search:
+        indication: Indicatie
+        human_name: Naam
+      human:
+        indication: Indicatie
+        street: Straat
+        zipcode: Postcode
+        city: Plaats
+        last_name: Achternaam
+      termination_reason:
+        name: Omschrijving
+      deregistration_reason:
+        name: Omschrijving
+      membership_type:
+        name: Omschrijving
+        participation_method_id: Subsoort
+        participation_method_name: Subsoort
+        participation_branch_id: Hoofdsoort
+        participation_branch_name: Hoofdsoort
+        salvationist_required: Heilssoldaat verplicht
+        legion_specific: Korpsgebonden
+        startable: Starten Korps
+        stoppable: Stoppen Korps
+        visible: Zichtbaar bij personen
+        salvationist: Maakt persoon Heilssoldaat
+        legion_officer: Maakt persoon Korpsofficier
+        convert: Maakt persoon Bekeerling
+      payment_method:
+        name: Omschrijving
+      payment_method_search:
+        name: Omschrijving
+      participation_category:
+        name: Omschrijving
+      participation_branch:
+        name: Omschrijving
+      visit_type:
+        name: Omschrijving
+      visit_duration:
+        name: Omschrijving
+      visit_reason:
+        name: Omschrijving
+      visit_location:
+        name: Omschrijving
+      cluster:
+        name: Omschrijving
+      activity_branch:
+        name: Omschrijving
+      supply_type:
+        name: Omschrijving
+      meeting_frequency:
+        name: Omschrijving
+      health_insurance_company:
+        name: Omschrijving
+      marital_state:
+        name: Omschrijving
+      education:
+        name: Omschrijving
+      honorific:
+        name: Omschrijving
+      rank:
+        name: Omschrijving
+      activity_search:
+        local_name: Lokale naam
+        activity_type_id: Activiteit
+      working_unit:
+        name: Naam
+        number: Nummer
+        historical: Historie
+        division_id: Divisie/HK
+        division_name: Divisie/HK
+        working_unit_id: Koppeling met Korps/HK
+        working_unit_name: Koppeling met Korps/HK
+        cluster_id: Koppeling met cluster
+        cluster_name: Koppeling met cluster
+      participation_type:
+        name: Omschrijving
+        local_name_allowed: Hernoemen lokaal
+        minimum_age: Minimale leeftijd
+        salvationist_required: Heilssoldaat verplicht
+        legion_specific: Korpsgebonden
+        startable: Starten door Korps
+        stoppable: Stoppen door Korps
+        local_officer: Plaatselijke officier
+        chaplain: Pastoraal Medewerker
+        participation_method_id: Subsoortdeelname
+        participation_method_name: Subsoortdeelname
+        Participation_category_id: Deelnamecategorie
+        participation_category_name: Deelnamecategorie
+        participation_branch_name: Hoofdsoort
+      participation_type_search:
+        name: Omschrijving
+        participation_method_id: Subsoortdeelname
+        participation_method_name: Subsoortdeelname
+        participation_category_id: Deelnamecategorie
+        participation_category_name: Deelnamecategorie
+      participation_method:
+        name: Omschrijving
+        participation_branch_id: Hoofdsoort
+        participation_branch_name: Hoofdsoort
+      participation_method_search:
+        name: Omschrijving
+      main_activity_type_search:
+        name: Omschrijving
+      division_search:
+        name: Naam
+      main_activity_type:
+        name: Omschrijving
+        activity_branch_id: Hoofdsoort
+        activity_branch_name: Hoofdsoort
+      address:
+        foreign: Buitenlands
+        start_date: Begindatum
+        city: Plaats
+        person: Persoon
+        lives_in_country: Woonachting in
+        country: Land
+        is_post_address: Postadres
+        zipcode: Postcode
+        is_visiting_address: Bezoekadres
+        street: Straat
+        foreign_line_1: Adresregel 1
+        foreign_line_2: Adresregel 2
+        foreign_line_3: Adresregel 3
+        house_number: Huisnummer
+        end_post_date: Einddatum postadres
+        end_visiting_date: Einddatum bezoekadres
+        post_office_box: Postbus
+        end_date: Einddatum
+        house_number_suffix: Huisnummer toevoegsel
+      organisation_type_search:
+        name: Omschrijving
+      organisation_type: 
+        name: Omschrijving
+      contact_search: 
+        name: Achternaam
+        organisation_id: Organisatie
+        initials: Voorletters
+        gender: Geslacht
+        infix: Tussenvoegsel
+        fax: Fax
+        phone: Telefoon
+        department: Afdeling
+        email: Email
+        first_name: Voornaam
+      person:
+        deregistration_reason_id: Reden uitschrijving
+        deregistrated_on: Datum uitschrijving
+        affinity: Affiniteit
+        gender_m: man
+        male: man
+        interests: Interesses
+        bank_account: Bankrekening
+        photo_file_size: Foto bestandsgrootte
+        young_salvationist: Jongsoldaat
+        user: Gebruiker
+        honorific_id: Titulatuur
+        cellphone: Mobiel nummer
+        wants_central_mail: Wil post vanuit HK
+        addresses: Een van de ingevulde adressen
+        marital_state_id: Burgelijke staat
+        bic: Bankcode (BIC)
+        cellphone_secret: geheim
+        email: "E-mail priv\xC3\xA9"
+        tools: Hulpmiddelen
+        legions: Korpsen
+        legion: Korps
+        gender: Geslacht
+        meeting_frequency: Bezoekfrequentie samenkomsten
+        female: vrouw
+        last_updated_by_id: Laatst gewijzigd door
+        other_household: anders
+        age: Leeftijd
+        marital_state: Burgerlijke staat
+        wants_central_email: Wil e-mail vanuit HK
+        initials: Voorletters
+        household_non_family: Medebewoners (geen familie)
+        regular_visitor_list_name: Regelmatige bezoeker
+        second_relations: Tweede betrekkingen
+        second_name_infix: Tussenvoegsel meisjesnaam
+        photo_content_type: Foto formaat
+        city: Plaats
+        function: Lidmaatschapsvorm
+        visitor: Bezoeker
+        adherent: Adherent
+        photo_file_name: Foto bestandsnaam
+        second_name: Meisjesnaam
+        preferred_communication_method: Primair communicatiekanaal
+        salvationist: Heilssoldaat
+        gender_v: vrouw
+        updated_at: Wijzigingsdatum
+        diet: Dieet
+        name: Achternaam
+        frequent_visitor_full_name: Naam
+        wants_local_mail: Wil post vanuit lokaal korps
+        birthdate: Geboortedatum
+        deceased_on: Overleden op
+        first_relations: Eerste betrekkingen
+        usual_name: Roepnaam
+        chaplain_list_name: Medewerker pastoraat
+        chaplain_id: Medewerker pastoraat
+        regular_visitor_id: Regelmatige bezoeker
+        visits_desired: Bezoek gewenst
+        rank: Legerrang
+        primary_legion: Primair korps
+        use_second_name: Aanschrijven met meisjesnaam
+        highest_education_id: Opleidingsniveau
+        current_photo: Foto
+        photo: Foto
+        officephone: Nummer zakelijk
+        approach_separately: Apart benaderen binnen huishouden
+        convert: Bekeerling
+        household: Huishouden
+        same_household: hetzelfde
+        second_email: E-mail zakelijk
+        primary_legion_id: Korps
+        iban_account: Bankrekening (IBAN)
+        infix: Tussenvoegsel
+        fax: Faxnummer
+        first_name: Voornaam
+        secondary_legion: Secundair korps
+        health_insurance_number: Polisnummer
+        health_insurance_id: Zorgverzekeraar
+        talents_and_gifts: Talenten en gaven
+        meeting_frequency_id: Samenkomst bezoekfrequentie
+        rank_id: Rang
+        relation_id: Relatie ID
+        full_name: Volledige naam
+        wants_local_email: Wil e-mail vanuit lokaal korps
+        memberships: Lidmaatschappen
+        homephone: "Nummer priv\xC3\xA9"
+        officephone_secret: Zakelijk nummer geheim
+        homephone_secret: Telefoonnummer geheim
+        photo_updated_at: Foto bijgewerkt op
+        deleted_at: Verwijderd op
+        frequent_visitor_comment: Bijzonderheden
+        acts_as_frequent_visitor: Regelmatige bezoeker
+        acts_as_legion_officer: Korpsofficier
+        acts_as_chaplain: Pastoraal medewerker
+        people_visiting: Aantal personen
+        is_frequent_visitor: Regelmatige bezoeker
+        frequent_visitor_role: Rol
+        number_of_visits: Aantal bezoeken
+        transferred_to_id: Korps
+        transferred_to_abroad: Korps
+        transferred_to_country: Land
+        moved_on: Datum overplaatsing
+      zip:
+        city: Plaats
+        from_number: Huisnummer vanaf
+        code: Postcode
+        to_number: Huisnummer tot
+        street: Straat
+        even: Even Nummer?
+      visit:
+        visiting_person_id: Bezoekend persoon
+        comment: Bijzonderheden
+        visited_at_from: Datum bezoek
+        visited_person_name: Bezochte persoon
+        visit_type_id: Type bezoek
+        visit_location_name: Locatie van het bezoek
+        visit_reason_id: Reden van het bezoek
+        visiting_person_name: Bezoekend persoon
+        visited_person_id: Bezochte persoon
+        visit_duration_id: Duur van het bezoek
+        visit_reason_name: Reden van het bezoek
+        visit_duration_name: Duur van het bezoek
+        visit_type_name: Type bezoek
+        visited_at: Datum bezoek
+        visit_location_id: Locatie van het bezoek
+        visiting_person_full_name: Bezoekend persoon
+        visited_person_full_name: Bezocht persoon
+      user_session:
+        login: Gebruikersnaam
+        password: Wachtwoord
+      organisation_search:
+        name: Naam
+        organisation_type_name: Organisatievorm
+        organisation_type: Organisatie
+        city: Plaats
+        organisation_type_id: Organisatievorm
+      membership_search:
+        person_name: Persoon
+        membership_type_id: Lidmaatschapomschrijving
+        legion_id: Korps
+      membership:
+        approvement_information: Bevestigingsinformatie
+        person_birthdate: Geboortedatum
+        person_human_gender_name: Geslacht
+        last_edited_by_human_name: Laatste wijziging
+        details: Lidmaatschapsdetails
+        termination: Uitschrijvingsdetails
+        person_id: Persoon
+        person_name: Persoon
+        person_full_name: Persoon
+        person_age: Leeftijd
+        last_edited_by: Laatst gewijzigd door
+        updated_at: Wijzigingsdatum
+        participation_branch_id: Soort afdeling
+        participation_branch_name: Soort afdeling
+        membership_type_id: Lidmaatschapomschrijving
+        membership_type_name: Lidmaatschapomschrijving
+        membership_type_full_name: Lidmaatschapomschrijving
+        participation_method_name: Subsoort
+        local_name: Deelnameomschrijving Lokaal
+        locally_started_on: Inschrijvingsdatum
+        started_on_method: Datum {{method}}
+        starting_legion_id_method: Korps van {{method}}
+        legion_id: Korps
+        legion_name: Korps
+        starting_legion_id: Korps van aanstelling/benoeming
+        starting_legion_name: Korps van aanstelling/benoeming
+        started_on: Datum aanstelling/benoeming
+        starting_legion_officer: Naam KO inschrijving
+
+        locally_ended_on: Uitschrijvingsdatum
+        ending_legion_officer: Naam KO uitschrijving
+        deregistration_reason_id: Reden uitschrijving
+        deregistration_reason_name: Reden uitschrijving
+
+        termination_reason_id: Reden uitschrijving
+        termination_reason_name: Reden uitschrijving
+        confirmable_termination_reason_id: Reden afname
+        confirmable_termination_reason_name: Reden afname
+
+        ended_on: Datum afname
+        ending_division_officer: Naam DO bij afname
+        termination_approved_on: Datum Pastorale Raad
+
+        comments: Bijzonderheden
+
+        transferred_to_name: Overplaatsing
+        transferred_to_id: Overplaatsing naar korps
+        transferred_to_abroad: Overplaatsing naar korps
+        transferred_to_country: Overplaatsing naar land
+      participation:
+        approvement_information: Bevestigingsinformatie
+        person_birthdate: Geboortedatum
+        person_human_gender_name: Geslacht
+        last_edited_by_human_name: Laatste wijziging
+        details: Deelnamedetails
+        termination: Uitschrijvingsdetails
+        person_id: Persoon
+        person_name: Persoon
+        person_full_name: Persoon
+        person_age: Leeftijd
+        last_edited_by: Laatst gewijzigd door
+        updated_at: Wijzigingsdatum
+        participation_branch_id: Soort afdeling
+        participation_branch_name: Soort afdeling
+        participation_type_id: Deelnameomschrijving
+        participation_type_name: Deelnameomschrijving
+        participation_category_id: Deelnamecategorie
+        participation_category_name: Deelnamecategorie
+        participation_method_name: Subsoort
+        local_name: Deelnameomschrijving Lokaal
+        locally_started_on: Inschrijvingsdatum
+        started_on_method: Datum {{method}}
+        starting_legion_id_method: Korps van {{method}}
+        local_officer: Plaatselijk Officier
+        young_local_officer: Jeugd Plaatselijk Officier
+        legion_id: Korps
+        legion_name: Korps
+        starting_legion_id: Korps van aanstelling/benoeming
+        starting_legion_name: Korps van aanstelling/benoeming
+        started_on: Datum aanstelling/benoeming
+        starting_legion_officer: Naam KO inschrijving
+        display_name: Soort deelname
+
+        locally_ended_on: Uitschrijvingsdatum
+        ending_legion_officer: Naam KO uitschrijving
+        deregistration_reason_id: Reden uitschrijving
+        deregistration_reason_name: Reden uitschrijving
+
+        termination_reason_id: Reden uitschrijving
+        termination_reason_name: Reden uitschrijving
+        confirmable_termination_reason_id: Reden afname
+        confirmable_termination_reason_name: Reden afname
+
+        ended_on: Datum afname
+        ending_division_officer: Naam DO bij afname
+        termination_approved_on: Datum Pastorale Raad
+
+        comments: Bijzonderheden
+
+        transferred_to_name: Overplaatsing
+        transferred_to_id: Overplaatsing naar korps
+        transferred_to_abroad: Overplaatsing naar korps
+        transferred_to_country: Overplaatsing naar land
+      participation_search:
+        legion_id: Korps
+        person_name: Achternaam
+        display_name: Soort deelname
+      selection_qualification_search:
+        last_name: Achternaam
+      frequent_visitor_search: 
+        comment: Bijzonderheden
+        is_chaplain: Pastoraal medewerker
+        person_full_name: Naam
+        person_id: Naam
+        people_visiting: Aantal personen
+        is_frequent_visitor: Regelmatige bezoeker
+      legion: 
+        memberships: Lidmaatschappen
+        name: Naam
+        division: Divisie
+        division_name: Divisie
+        division_id: Divisie
+        cluster_name: Cluster
+        cluster_id: Cluster
+        activities: Activiteiten
+        members: Leden
+        legion_number: Nummer
+      membership_type_search:
+        name: Omschrijving
+      legion_search:
+        name: Naam
+        division_id: Divisie
+        cluster_id: Cluster
+      division: 
+        name: Naam
+        number: Nummer
+        headquarter: Hoofdkwartier
+      relation: 
+        human_relation_type: Relatietype
+        second_person: Tweede persoon
+        second_person_id: Tweede persoon
+        relation_types: 
+          parent: ouder
+          married: getrouwd
+          engaged: verloofd
+          child: kind
+          partner: partner
+        second_person_list_name: ...van wie?
+        relation_type: Gezinsrelatie
+        first_person: Eerste persoon
+        first_person_id: Eerste persoon
+      activity: 
+        local_name: Lokale naam
+        display_name: Naam
+        activity_type_id: Activiteit
+        activity_type: Activiteit
+        activity_type_name: Activiteit
+      supply_search: 
+        name: Naam
+        serial_number: Serienummer
+        photo: Foto
+        supply_type_name: Materieelsoort
+        comments: Opmerkingen
+        supply_type_id: Materieelsoort
+        description: Omschrijving
+        purchase_date_from: Aanschafdatum
+        amortization_date_from: Einde datum gebruik
+        supply_type: Materieelsoort
+        purchase_price_from: Aanschafprijs
+      contact: 
+        name: Achternaam
+        organisation_id: Organisatie
+        initials: Voorletters
+        gender_v: Vrouw
+        infix: Tussenvoegsel
+        gender: Geslacht
+        organisation_name: Organisatie
+        gender_m: Man
+        phone: Telefoonnummer
+        fax: Fax
+        full_name: Naam
+        department: Afdeling
+        first_name: Voornaam
+        email: E-mail
+      statistic_search: 
+        visitors_count_from: Aantal
+        visitors_count_to: Aantal t/m
+        year_from: Jaar
+        activity_id: Korpsactiviteit
+        activity: Korpsactiviteit
+        activity_name: Korpsactiviteit
+        week_number_from: Week
+        week_number_to: Week t/m
+      external_relation_search: 
+        name: Achternaam
+        city: Plaats
+        last_updated_by_id: Laatst gewijzigd door
+        country: Land
+        zipcode: Postcode
+        initials: Voorletters
+        infix: Tussenvoegsel
+        gender: Geslacht
+        street: Straat
+        mobile: Mobiel nummer
+        foreign_line_1: Adresregel 1
+        foreign_line_2: Adresregel 2
+        phone: Telefoonnummer
+        house_number: Huisnummer
+        foreign_line_3: Adresregel 3
+        first_name: Voornaam
+        house_number_suffix: Huisnummer toevoegsel
+        email: E-mail
+      supply_history: 
+        most_recent_returned_on: de meest recente innamedatum
+        person_name: Persoon
+        borrow_date: de uitleendatum
+        person_id: Persoon
+        returned_on: Datum inname
+        borrowed_on: Datum uitleen
+      supply: 
+        name: Naam
+        serial_number: Serienummer
+        photo: Foto
+        photo_file_name: Bestandsnaam foto
+        photo_content_type: Type foto
+        photo_file_size: Bestandsgrootte foto
+        photo_updated_at: Uploadtijd foto
+        supply_type_name: Materieelsoort
+        purchase_price: Aanschafprijs
+        localized_purchase_price: Aanschafprijs
+        comments: Opmerkingen
+        purchase_date: Aanschafdatum
+        supply_type_id: Materieelsoort
+        amortization_date: Einde datum gebruik
+        description: Omschrijving
+        supply_type: Materieelsoort
+      organisation: 
+        name: Naam
+        organisation_type_name: Organisatievorm
+        organisation_type: Organisatie
+        city: Plaats
+        country: Land
+        zipcode: Postcode
+        street: Straat
+        foreign_line_1: Adresregel 1
+        website: Website
+        foreign_line_2: Adresregel 2
+        phone: Telefoonnummer
+        fax: Faxnummer
+        house_number: Huisnummer
+        foreign_line_3: Adresregel 3
+        organisation_type_id: Organisatievorm
+        house_number_suffix_short: toevoegsel
+        email: E-mail organisatie
+        house_number_suffix: Huisnummer toevoegsel
+        formatted_address: Adres
+      external_relation: 
+        name: Achternaam
+        city: Plaats
+        last_updated_by_id: Laatst gewijzigd door
+        comment: Opmerkingen
+        country: Land
+        zipcode: Postcode
+        updated_at: Wijzigingsdatum
+        initials: Voorletters
+        gender_v: Vrouw
+        infix: Tussenvoegsel
+        gender: Geslacht
+        street: Straat
+        gender_m: Man
+        foreign_line_1: Adresregel 1
+        mobile: Mobiel nummer
+        full_name: Naam
+        foreign_line_2: Adresregel 2
+        phone: Telefoonnummer
+        house_number: Huisnummer
+        foreign_line_3: Adresregel 3
+        first_name: Voornaam
+        house_number_suffix: Huisnummer toevoegsel
+        formatted_address: Adres
+        email: E-mail
+      visit_search:
+        comment: Bijzonderheden
+        visited_person_name: Bezochte persoon
+        visit_type_id: Type bezoek
+        visit_reason_id: Reden van het bezoek
+        visiting_person_name: Bezoekend persoon
+        visit_duration_id: Duur van het bezoek
+        visited_at: Datum bezoek
+        visit_location_id: Locatie van het bezoek
+      user_search:
+        legion_id: Korps
+        role: Rol
+        division_id: Divisie
+        name: Achternaam
+        role_id: Rol
+        login: Gebruikersnaam
+        location_id: Vestiging
+        first_name: Voornaam
+      person_search:
+        name: Achternaam
+        city: Plaats
+        birthdate: Geboortedatum
+        legion_id: Korps
+        street: Straatnaam
+      login: Gebruikersnaam
+      password: Wachtwoord
+      statistic:
+        visitors_count: Aantal
+        activity_id: Korpsactiviteit
+        activity: Korpsactiviteit
+        year: Jaar
+        activity_name: Korpsactiviteit
+        week_number: Week
+      user:
+        person_id: Persoon
+        name: Achternaam
+        division_name: Divisie
+        last_request_at: Laatste keer pagina geopend
+        person: Persoon
+        legion_id: Korps
+        crypted_password: Gecodeerde wachtwoord
+        current_password: Huidig wachtwoord
+        headquarter: Hoofdkwartier
+        password: Wachtwoord
+        password_confirmation: Bevestig wachtwoord
+        role: Rol
+        division: Divisie
+        legion: Korps
+        initials: Voorletters
+        role_id: Rol
+        role_name: Rol
+        current_login_ip: Momenteel ingelogd vanaf IP-adres
+        infix: Tussenvoegsel
+        gender: Geslacht
+        gender_m: Man
+        gender_v: Vrouw
+        division_id: Divisie
+        password_salt: Wachtwoord zout
+        current_login_at: Momenteel ingelogd sinds
+        persistence_token: Persistentie token
+        full_name: Naam
+        last_login_ip: Laatste keer ingelogd van IP-adres
+        login: Gebruikersnaam
+        last_login_at: Laatste keer ingelogd op
+        legion_name: Korps
+        location_name: Vestiging
+        location_id: Vestiging
+        access_level: Gegevenstoegang
+        first_name: Voornaam
+        locale: Taal
+      activity_type:
+        name: Omschrijving
+        main_activity_type_id: Hoofd-/Subsoort
+        main_activity_type_name: Hoofd-/Subsoort
+        local_name_allowed: Hernoemen lokaal
+        statistic_category: Statistiekcategorie
+        statistic_category_local: Lokaal
+        statistic_category_headquarter: HK
+        local: Lokaal
+        headquarter: HK
+      activity_type_search:
+        name: Omschrijving
+        main_activity_type_id: Subsoort
+        main_activity_type_name: Subsoort
+        local_name_allowed: Lokale naam mogelijk
+        code: Code
+        subcode: Subcode
+        escalation_required: Escalatie nodig
+      supply_type:
+        name: Omschrijving
+        supplies: Matrieel
+      report:
+        report_type: Type rapportage
+        report_type_birthday_report: Verjaardagslijst
+        report_type_statistics_report: Statistiekgegevens
+        report_type_addresses_report: Adressen
+        output_type: Uitvoer
+        output_type_pdf: PDF document
+        output_type_csv: CSV
+      birthday_report:
+        exclude_fictional_birthdate: Fictieve geboortedata onderdrukken 
+        day: Dag
+        name: Naam
+        birthdate: Geboortedatum
+        age: Leeftijd
+        address: Adres
+        zipcode: Postcode
+        city: Woonplaats
+        homephone: Telefoonnummer
+      statistics_report:
+        timespan: Periode
+        timespan_period: Per periode
+        timespan_month: Per maand
+        statistic_type: Type
+        statistic_type_activity: Activiteiten
+        statistic_type_visit: Pastoraal bezoek
+        from_date: Maand vanaf
+        to_date: Maand t/m
+        activity: Soort activiteit
+        visitors: Aantal
+        activity_occurrences: Aantal keer
+        activity_average: Aantal gemiddeld
+        statistics_report_overview: Overzicht statistiek
+        chaplain: Pastoraal medewerker
+        visits: Aantal bezoeken
+        visit_duration: Totale duur (min.)
+        visit_average: Gemiddelde duur (min.)
+      addresses_report:
+        selection: Selectie
+        selection_people: Selectiekenmerken personen
+        selection_external_relations: Selectiekenmerken externe relaties
+        selection_people_and_external_relations: Selectiekenmerken personen en externe relaties
+        selection_local_officers: Plaatselijke officieren
+        selection_nominations: Benoemingen
+        selection_participations: Deelnamen
+        export_per_household: Uitvoer
+        export_per_household_true: Uitvoer per gezin
+        export_per_household_false: Uitvoer per persoon
+        filter: Filter
+      selection_qualification:
+        name: Selectiekenmerk
+        legion_id: Korps
+      selection_qualification_search:
+        name: Omschrijving
+        legion_id: Korps
+    errors:
+      messages:
+        record_invalid: Ongeldig record
+        invalid_date: De datum moet een geldige datum zijn; formaat {{format}}
+        not_visiting_address_when_po_box: postbus kan geen bezoekadres zijn
+        greater_than_or_equal_to: "{{attribute}} moet groter zijn dan of gelijk zijn aan {{count}}"
+        second_name_infix: "{{attribute}} mag niet ingevuld worden als er geen tweede achternaam is ingevuld"
+        less_than_or_equal_to: "{{attribute}} moet minder zijn dan of gelijk zijn aan {{count}}"
+        confirmation: "{{attribute}} werd niet goed bevestigd."
+        blank: "{{attribute}} moet een waarde hebben."
+        unchangeable: "{{old_value}} is in gebruik en mag daarom niet meer worden hernoemd."
+        invalid_zipcode_housenumber_combination: ongeldige postcode-huisnummer combinatie
+        young_salvationist_required: is geen jongsoldaat
+        invalid: "{{attribute}} is ongeldig"
+        exclusion: "{{value}} is gereserveerd voor {{attribute}}"
+        salvationist_or_young_salvationist_required: "is geen heilssoldaat of jongsoldaat."
+        too_young_for_function: Deze functie vereist een hogere leeftijd
+        odd: "{{attribute}} moet oneven zijn."
+        no_valid_date: "Bij {{attribute}} is een ongeldige datum ingevoerd."
+        still_has_contacts: "Heeft nog contactpersonen."
+        is_frequent_visitor_and_is_chaplain_cannot_both_be_set: "'Pastoraal medewerker' en 'Regelmatige bezoeker' kunnen niet beiden aangevinkt zijn"
+        too_old_for_function: Deze functie vereist een lagere leeftijd
+        even: "{{attribute}} moet even zijn."
+        invalid_dutch_zipcode: "'{{value}}' is geen geldige Nederlandse postcode."
+        wrong_length: moet bestaan uit {{count}} cijfers
+        too_short: "{{attribute}} is te kort (minimaal {{count}} tekens)"
+        empty: "{{attribute}} mag niet leeg zijn."
+        bic: "{{attribute}} mag niet ingevuld worden als er geen rekeningnummer is ingevuld."
+        is_frequent_visitor_or_is_chaplain_must_be_set: "'Pastoraal medewerker' of 'Regelmatige bezoeker' moet aangevinkt zijn"
+        invalid_currency: Moet een geldige prijs zijn
+        less_than: "{{attribute}} moet minder zijn dan {{count}}"
+        equal_to: "{{attribute}} moet gelijk zijn aan {{count}}"
+        greater_than: "{{attribute}} moet groter zijn dan {{count}}"
+        enter_both: "Beide invoervelden van '{{attribute}}' moeten worden ingevuld."
+        not_unique_for_activity_type: naam is al in gebruik voor deze activiteit
+        not_unique: is al actief in dit korps
+        taken: "{{value}} is al bezet."
+        too_long: "{{attribute}} is te lang (maximaal {{count}} tekens)"
+        accepted: "{{attribute}} moet geaccepteerd worden."
+        salvationist_required: is geen heilssoldaat
+        already_entered_this_address_for_person: adres al ingevoerd voor deze persoon
+        end_date_before_start_date: ligt voor startdatum
+        not_a_number: "{{attribute}} moet nummeriek zijn."
+        inclusion: staat niet in de lijst
+        already_visiting: Het bezoekend persoon mag niet het bezochte persoon zijn.
+      models:
+        supply:
+          attributes:
+            photo:
+              content_type_invalid: Geen geldig bestandstype. Alleen afbeeldingen zijn toegestaan.
+            purchase_date:
+              invalid_date: Aanschafdatum moet een geldige datum zijn.
+              invalid: Aanschafdatum moet een geldige datum zijn.
+        supply_history:
+          attributes:
+            borrowed_on:
+              blank: Datum uitleen moet een geldige waarde hebben
+        supply_search:
+          attributes:
+            purchase_price_from:
+              enter_both: Er moeten twee bedragen ingevoerd worden.
+            purchase_date_from:
+              enter_both: Er moeten twee data ingevoerd worden.
+            amortization_date_from:
+              enter_both: Er moeten twee data ingevoerd worden.
+        activity:
+          attributes:
+            activity_type_id:
+              taken: Bestaat al binnen uw werkeenheid
+        frequent_visitor:
+          attributes:
+            visitor_type:
+              blank: "'Pastoraal medewerker' of 'Regelmatige bezoeker' moet gekozen zijn"
+        person:
+          attributes:
+            acts_as_frequent_visitor:
+              taken: 'is al een regelmatige bezoeker, pastoraal medewerker of korpsofficier'
+      template:
+        body: "Probeer de volgende problemen te verhelpen:"
+        header:
+          one: Er is een probleem met de gegevens die u invulde.
+          other: Er zijn {{count}} problemen met de gegevens die u invulde.
+  menu_items:
+    deceased: Alleen overleden personen
+    addresses: Adressen
+    living: Alleen levende personen
+    frequent_visitors: Regelmatige bezoekers
+    statistics: Statistieken
+    new_activity: Nieuwe activiteit
+    participations: Deelnamen
+    memberships: Lidmaatschappen
+    external_relations: Externe Relaties
+    root_tables: Stamtabellen
+    preferences: Voorkeuren
+    new_participation: Deelnemers toevoegen/verwijderen
+    supplies: Materieel
+    supply_details:
+      edit_photo: Foto veranderen
+      new_photo: Foto toevoegen
+    legions: Korpsen
+    organisations: Organisaties
+    activities: Activiteiten
+    edit_activity: Wijzig activiteit
+    deactivate_activity: Deactiveer activiteit
+    person_details:
+      photo: Pasfoto veranderen
+      transfer: Overplaatsing
+      memberships: Verwerk functieaanstelling/ -benoeming
+      deceased: Overleden
+      relations: Nieuwe gezinsrelatie
+      addresses: Verwerk adreswijziging
+      personal: Bewerk profielgegevens
+      contact: Bewerk contactgegevens
+      communication: Communicatie
+      deregistration: Uitschrijven
+    visits: Bezoeken
+    people: Personen
+    contacts: Contactpersonen
+    access: Toegang
+    new_person: Nieuw persoon invoeren
+    divisions: Divisies
+    signout: Uitloggen
+    reports: Rapportages
+    selection_qualifications: Selectiekenmerken
+  people_selection_qualifications_indication: Indicatie
+  people_selection_qualifications_lastname: Achternaam
+  no_people_found: Geen personen gevonden
+
+  paperclip:
+    errors:
+      content_type: Geen geldig bestandstype. Alleen afbeeldingen zijn toegestaan.

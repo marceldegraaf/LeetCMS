@@ -11,6 +11,7 @@ Rails::Initializer.run do |config|
   config.gem 'haml', :lib => 'haml', :version => '>=2.2.0'
   config.gem 'browsercms'
   config.gem "bcms_rankings"
+  config.gem "bcms_news"
   # Settings in config/environments/* take precedence over those specified here.
   # Application configuration should go into files in config/initializers
   # -- all .rb files in that directory are automatically loaded.
@@ -41,5 +42,5 @@ Rails::Initializer.run do |config|
 
   # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
   # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}')]
-  # config.i18n.default_locale = :de
+  config.i18n.default_locale = :nl
 end
